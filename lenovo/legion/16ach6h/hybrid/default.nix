@@ -11,6 +11,9 @@
     ../edid
   ];
 
+
+  boot.kernelModules = [ "amdgpu" ];
+
   hardware = {
     amdgpu.loadInInitrd = lib.mkDefault false;
 
