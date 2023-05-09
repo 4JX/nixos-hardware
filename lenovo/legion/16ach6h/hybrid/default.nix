@@ -15,7 +15,7 @@
   boot.kernelModules = [ "amdgpu" ];
 
   hardware = {
-    amdgpu.loadInInitrd = lib.mkDefault false;
+    # amdgpu.loadInInitrd = lib.mkDefault false;
 
     nvidia = {
       modesetting.enable = lib.mkDefault true;
