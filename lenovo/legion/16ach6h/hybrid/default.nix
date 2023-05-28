@@ -11,8 +11,8 @@
     ../edid
   ];
 
-  boot.kernelModules = [ "amdgpu" ];
-  services.xserver.videoDrivers = [ "amdgpu" ];
+  # boot.kernelModules = [ "amdgpu" ];
+  # services.xserver.videoDrivers = [ "amdgpu" ];
 
   hardware = {
     amdgpu.loadInInitrd = lib.mkDefault false;
