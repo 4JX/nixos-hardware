@@ -5,5 +5,6 @@
 result
 result-*
 .version-suffix
+.history
 
 .DS_Store
